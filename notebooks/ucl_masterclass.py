@@ -415,7 +415,7 @@ def plot_variable(df,variable, bins = None,bin_number = 20):
 
     var_list = df[variable].tolist()
 
-    if variable in ['mBB','Mtop','pTV','MET','mTW','pTB1','pTB2']:
+    if variable in ['mBB','Mtop','pTV','MET','mTW','pTB1','pTB2','MV1cB1_cont','MV1cB2_cont',]:
         var_list = [i/1e3 for i in var_list]
 
 
